@@ -2,3 +2,5 @@ target/
 
 .bsp/
 .idea/
+
+release-version

@@ -1,7 +1,9 @@
 package example
 
+import buildinfo.BuildInfo
+
 object Hello extends Greeting with App {
-  println(greeting)
+  println(s"======== greetings: '$greeting', version: ${BuildInfo.toJson} ========")
 }
 
 trait Greeting {
